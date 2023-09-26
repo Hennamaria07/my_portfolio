@@ -16,7 +16,7 @@
     <div class="container-fluid">
         <div class="container-fluid wrap-el">
             <header class="header-el">
-                <nav class="navbar navbar-expand-lg navbar-light bg-transparent fixed-top">
+                <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
                     <div class="container">
                         <img class="navbar-brand" src="../images/logo.png" height="50px" width="80px">
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -27,22 +27,22 @@
                         <div class="collapse navbar-collapse" id="navbarNav">
                             <ul class="navbar-nav">
                                 <li class="nav-item">
-                                    <a class="nav-link text-white-50" aria-current="page" href="#home">Home</a>
+                                    <a class="nav-link text-dark" aria-current="page" href="#home">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link text-white-50" href="#about">About</a>
+                                    <a class="nav-link text-dark" href="#about">About</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link text-white-50" aria-current="page" href="#services">Services</a>
+                                    <a class="nav-link text-dark" aria-current="page" href="#services">Services</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link text-white-50" href="#work">Work</a>
+                                    <a class="nav-link text-dark" href="#work">Work</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link text-white-50" aria-current="page" href="#blog">Blog</a>
+                                    <a class="nav-link text-dark" aria-current="page" href="#blog">Blog</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link text-white-50" aria-current="page" href="#Contact">Contact</a>
+                                    <a class="nav-link text-dark" aria-current="page" href="#Contact">Contact</a>
                                 </li>
                             </ul>
                         </div>
@@ -64,7 +64,8 @@
                                     <!-- <a href="https://github.com/Hennamaria07" target="_blank"
                                     class="btn-el me-3 text-decoration-none">Explore My Work</a> -->
                                     <a href="../cv/Henna_cv.pdf"
-                                        class="download-btn me-3 text-decoration-none text-dark" download="Henna Maria">Download
+                                        class="download-btn me-3 text-decoration-none text-dark"
+                                        download="Henna Maria">Download
                                         CV<i class="fa fa-download"></i></a>
                                 </div>
                             </div>
@@ -1359,66 +1360,118 @@
         <section id="about" class="full-width about-el">
             <div class="container-fluid bg-sharp m-0 overflow-hidden">
                 <div class="row p-0 text-center">
-                    <h6 class="pt-md-5">ABOUT</h6>
-                    <h1 class="mb-2 color">My Education </h1>
-                    <div class="col-12 d-flex justify-content-sm-start justify-content-center" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
-                        <div class="card bg-transparent mx-sm-5 my-sm-3 my-4" data-aos="fade-right" data-aos-offset="300"
-                            data-aos-easing="ease-in-sine">
-                            <div class="card-body">
-                                <h4 class="card-title">Computer Science Engineering</h4>
-                                <h6 class="card-subtitle">APJ Abdul Kalam Technological University (2019 - 2023)</h6>
-                                <p class="card-text">KTU education provided a strong foundation in computer science,
-                                    enabling skills in software development, data analysis, and artificial intelligence.
-                                    <span>Passionate about leveraging technology for real-world challenges.</span></p>
+                    <h1 class="mb-2 color mt-5">Who I Am</h1>
+                    <div class="col-md-4">
+                        <img src="../images/Coding.png" alt="coding girl">
+                    </div>
+                    <div class="about-content col-md-8 ">
+                        <p class="text-start"> Hey, I'm a recent Computer Science Engineering graduate with a passion
+                            for Full Stack Development, specializing in the MERN stack. I'm currently honing my skills
+                            through the Entri Elevate program, where I'm constantly pushing the boundaries of what's
+                            possible in web development.</p>
+                        <!-- <ul class="d-flex justify-content-evenly ul-el">
+                            <li class="about-list-items"><a class="a-el" href="#skills">Skills</a></li>
+                            <li class="about-list-items"><a class="a-el" href="#education">Education</a></li>
+                        </ul>
+                         <div id="skills" class="text-start">
+                                <h5 class="sub-title">Web Development</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi, impedit neque blanditiis voluptatibus, nesciunt odio ullam.</p>
+                                <h5 class="sub-title">Full Stack Development</h5>
+                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi, impedit neque blanditiis voluptatibus, nesciunt odio ullam.</p>
+
+                            </div> -->
+                            <div class="row p-0">
+                        <p class="d-flex justify-content-evenly">
+                            <button class="btn bg-transparent text-info font-monospace" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#skills" aria-expanded="false"
+                                aria-controls="skills">
+                                Skills
+                            </button>
+                            <button class="btn bg-transparent text-info font-monospace" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#education" aria-expanded="false"
+                                aria-controls="education">
+                                Education
+                            </button>
+                        </p>
+                        <div style="min-height: 120px;" class="col-md-6">
+                            <div class="collapse collapse-horizontal" id="skills" data-aos="zoom-in">
+                                <div class="card card-body bg-transparent d-flex justify-content-md-start" class="w-md-50">
+                                    This is some placeholder content for a horizontal collapse. It's hidden by default
+                                    and shown when triggered.
+                                </div>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="col-12 d-flex justify-content-sm-end justify-content-center" data-aos="fade-left" data-aos-offset="300"
-                        data-aos-easing="ease-in-sine">
-                        <div class="card bg-transparent mx-sm-5 my-sm-3 my-4">
-                            <div class="card-body">
-                                <h4 class="card-title">MERN Stack</h4>
-                                <h6 class="card-subtitle">Entri Elevate (2023 - present)</h6>
-                                <p class="card-text"> My education in full-stack web development, focusing on React and
-                                    Node.js, equips me to create modern, responsive, and scalable applications.<span> My
-                                    passion for continuous learning drives my commitment to delivering exceptional
-                                    results.</span></p>
+                        <div style="min-height: 120px;" class="col-md-6">
+                            <div class="collapse collapse-horizontal" id="education" data-aos="zoom-in">
+                                <div class="card card-body bg-transparent  d-flex justify-content-md-end" class="w-md-50">
+                                    This is some placeholder content for a horizontal collapse. It's hidden by default
+                                    and shown when triggered.
+                                </div>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="col-12 d-flex justify-content-sm-start justify-content-center" data-aos="fade-right" >
-                        <div class="card bg-transparent mx-sm-5 my-sm-3 my-4">
-                            <div class="card-body">
-                                <h4 class="card-title">Science</h4>
-                                <p class="card-subtitle">NSS HSS Karapuzha Kottayam (2017 - 2019)</p>
-                                <p class="card-text">My education in biological sciences has fostered a deep appreciation for life sciences and ecosystem intricacies.<span> Through rigorous coursework and hands-on experiences, I have developed critical analytical skills and a passion for exploring biology.</span></p>
-                            </div>
                         </div>
-                    </div>
 
+                    </div>
                 </div>
+
         </section>
-        <!-- <section id="services" class="full-width about-el">
+        <section id="services" class="full-width about-el overflow-hidden">
+            <div class="row p-0 text-center">
+                <h1 class="mb-2 color mt-5">Services That I Provided</h1>
+                <div class="col-12 d-flex justify-content-sm-start justify-content-center" data-aos="fade-right"
+                    data-aos-offset="300" data-aos-easing="ease-in-sine">
+                    <div class="card bg-transparent mx-sm-5 my-sm-3 my-4" data-aos="fade-right" data-aos-offset="300"
+                        data-aos-easing="ease-in-sine">
+                        <div class="card-body">
+                            <h4 class="card-title">WEB DESIGNING </h4>
+                            <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum fugiat
+                                officiis amet sunt. <span>quo fugit dolore saepe cupiditate ab similique dicta adipisci!
+                                    Asperiores ducimus culpa quidem pariatur nihil officia!</span></p>
+                        </div>
+                    </div>
+                </div>
 
-                 </section>
+                <div class="col-12 d-flex justify-content-sm-end justify-content-center" data-aos="fade-left"
+                    data-aos-offset="300" data-aos-easing="ease-in-sine">
+                    <div class="card bg-transparent mx-sm-5 my-sm-3 my-4">
+                        <div class="card-body">
+                            <h4 class="card-title">MERN STACK DEVELOPER</h4>
+                            <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum fugiat
+                                officiis amet sunt. <span>quo fugit dolore saepe cupiditate ab similique dicta adipisci!
+                                    Asperiores ducimus culpa quidem pariatur nihil officia!</span> </p>
+                        </div>
+                    </div>
+                </div>
 
-                 <section id="work" class="full-width about-el">
+                <div class="col-12 d-flex justify-content-sm-start justify-content-center" data-aos="fade-right">
+                    <div class="card bg-transparent mx-sm-5 my-sm-3 my-4">
+                        <div class="card-body">
+                            <h4 class="card-title">UI/UX</h4>
+                            <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum fugiat
+                                officiis amet sunt. <span>quo fugit dolore saepe cupiditate ab similique dicta adipisci!
+                                    Asperiores ducimus culpa quidem pariatur nihil officia!</span> </p>
+                        </div>
+                    </div>
+                </div>
 
-                 </section>
-                 <section id="blog" class="full-width about-el">
+            </div>
+        </section>
 
-                 </section>
-                 <section id="Contact" class="full-width about-el">
+        <!-- <section id="work" class="full-width about-el">
+
+                 </section> -->
+        <!-- <section id="blog" class="full-width about-el">
+
+                 </section> -->
+        <!-- <section id="Contact" class="full-width about-el">
 
                  </section> -->
 
         </main>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
