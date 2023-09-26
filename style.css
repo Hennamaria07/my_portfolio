@@ -85,8 +85,8 @@ div .row{
 .card{
     border: 2px solid #800774;
 }
-.ul-el{
-    list-style: none;
+.ul-el li{
+    list-style:circle
 }
 .about-list-items a{
     text-decoration: none;
