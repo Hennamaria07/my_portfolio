@@ -212,9 +212,10 @@ svg{
     padding: 0rem 5rem;
 }
 .contact-img img{
-    width: 280px;
-    height: 400px;
-    padding: 0px 1rem;
+   display: none;
+}
+.footer-logo img {
+    display: none;
 }
 }
 @media (min-width: 576px) and (max-width: 767px) {
@@ -243,6 +244,9 @@ svg{
 .contact-img img{
     display: none;
 }
+.footer-logo img {
+    display: none;
+}
 }
 @media (max-width: 575px) {
      svg{
@@ -268,13 +272,7 @@ svg{
 .contact-img img{
     display: none;
 }
+.footer-logo img {
+    display: none;
 }
-/* @media (max-width: 991px){
-    .svgContainer-el svg{
-        display: none;
-    }
-    .home-content{
-        margin: 5rem 0rem;
-    }
 }
-     */
