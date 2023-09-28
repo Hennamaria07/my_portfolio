@@ -106,7 +106,7 @@ div .row{
     visibility: visible;
 }
 .contact-bg{
-    background-image: url("../images/spaceimg.jpg");
+    background-image: url("./images/spaceimg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
