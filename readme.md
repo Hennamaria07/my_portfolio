@@ -32,10 +32,10 @@ Explore the "Projects" section to see some of the work I've done. I've had the o
 
 If you're interested in working with me or just want to say hello, feel free to get in touch through the following channels:
 
-- Email: [your.email@example.com](mailto:hennamaria2001@gmail.com)
-- LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/henna-maria-7642b7200/)
-- Twitter: [@YourTwitterHandle](https://twitter.com/HennaMaria19)
-- GitHub: [@YourGitHubUsername](https://github.com/Hennamaria07)
+- Email: [hennamaria2001@gmail.com](mailto:hennamaria2001@gmail.com)
+- LinkedIn: [Henna Maria](https://www.linkedin.com/in/henna-maria-7642b7200/)
+- Twitter: [@HennaMaria19](https://twitter.com/HennaMaria19)
+- GitHub: [@Hennamaria07](https://github.com/Hennamaria07)
 
 I'm excited to connect with you and discuss potential collaborations.
 
