@@ -1503,32 +1503,42 @@
                 <div class="col-md-8 mt-3"  data-aos="zoom-in-up"
                     data-aos-offset="300" data-aos-easing="ease-in-sine">
                     <h1 class="mb-2 color mt-5 text-center mb-4">Contact Me</h1>
-                    <form class="p-5 rounded-3">
+                    <form class="p-5 rounded-3" id="form-el">
                         <div class="d-flex justify-content-between">
                             <div class="col-sm-6 me-2">
-                                <label for="firstName" class="form-label contact-text fw-bold">First Name</label>
-                                <input type="text" class="form-control" id="firstName" placeholder="" value=""
+                                <label for="fname" class="form-label contact-text fw-bold">First Name</label>
+                                <input type="text" class="form-control" id="fname" placeholder="Mikey" value=""
                                     required="">
-                            </div>
-                            <div class="col-sm-6 me-2">
-                                <label for="lastName" class="form-label contact-text fw-bold">Last Name</label>
-                                <input type="text" class="form-control" id="lastName" placeholder="" value=""
+                                    <p class="text-color" id="fnameErr"></p>
+                                </div>
+                                <div class="col-sm-6 me-2">
+                                    <label for="lastName" class="form-label contact-text fw-bold">Last Name</label>
+                                    <input type="text" class="form-control" id="lname" placeholder="Manijo" value=""
                                     required="">
+                                    <p class="text-color" id="lnameErr"></p>
+                                </div>
                             </div>
-                        </div>
-                        <div class="mb-3">
-                            <label for="exampleFormControlInput1" class="form-label contact-text fw-bold">Email
-                                address</label>
-                            <input type="email" class="form-control" id="exampleFormControlInput1"
-                                placeholder="name@example.com">
-                        </div>
-                        <div class="mb-3">
-                            <label for="exampleFormControlTextarea1" class="form-label contact-text fw-bold">Your
-                                Message
-                            </label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1"
-                                placeholder="What you want to say ?" rows="3"></textarea>
-                        </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label contact-text fw-bold">Email
+                                    Address</label>
+                                    <input type="email" class="form-control" id="email"
+                                    placeholder="name@example.com">
+                                    <p class="text-color" id="emailErr"></p>
+                                </div>
+                            <div class="mb-3">
+                                <label for="phone" class="form-label contact-text fw-bold">Phone Number</label>
+                                    <input type="number" class="form-control" id="phone"
+                                    placeholder="eg: 7510584625">
+                                    <p class="text-color" id="numberErr"></p>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="message" class="form-label contact-text fw-bold">Your
+                                        Message
+                                    </label>
+                                    <textarea class="form-control" id="message"
+                                    placeholder="What you want to say ?" rows="5"></textarea>
+                                    <p class="text-color" id="messageErr"></p>
+                                </div>
                         <div class="d-flex justify-content-center">
                         <button type="button" class="btn btn-outline-info mt-3 d-flex justify-content-center fw-bold">Submit</button>
                         </div>
@@ -1556,6 +1566,7 @@
         </footer>
     </div>
 
+    <script src="./script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>

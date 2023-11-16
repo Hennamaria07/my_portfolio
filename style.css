@@ -118,7 +118,7 @@ div .row{
     background-size: cover;
 }
 form {
-    opacity: 0.5;
+    opacity: 0.8;
     background-color: #9c1a49;
 }
 .contact-text {
@@ -146,6 +146,12 @@ form {
 }
 .icons i {
    font-size: 1rem;
+}
+/* .form-control{
+    border: solid 2px rgb(255, 170, 0);
+} */
+.text-color {
+    color: rgb(255, 170, 0);
 }
 @keyframes personAnimation{
     0% {
